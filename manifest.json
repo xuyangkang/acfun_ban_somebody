@@ -1,0 +1,27 @@
+{
+  "description": "Bans ACFun posts from somebody that you don't like",
+  "manifest_version": 2,
+  "name": "ACFun ban sb",
+  "version": "0.1",
+  "homepage_url": "https://github.com/xuyangkang/acfun_ban_sb_ff",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.acfun.cn/a/ac*"
+      ],
+      "js": [
+        "acfun_ban_sb.js"
+      ]
+    }
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "activeTab"
+  ]
+}
