@@ -9,26 +9,43 @@ AC在，爱一直在
 
 兄弟们，我相信许多老 ACer 现在唯一的快乐就是看文章区，但是最近恰烂钱的营销号以及睿智太多了，导致体验很差。猴山也毫无动静，只能亲自下场了。
 
-## 安装
+## Chrome 安装
 由于还没有打包 launch，请选择 “clone or download”，“download as zip”，然后按照如下步骤操作：
-1. 打开 about:debugging
-![](Step_1.png)
+1. 打开 chrome://extensions
+![](pics/chrome_1.png)
 
-2. 选择 “此 Firefox”
-![](Step_2.png)
+2. 启用开发者模式
+![](pics/chrome_2.png)
 
-3. 选择 “临时载入附加组件”，找到 zip 解压的位置，然后选中 manifest
-![](Step_3.png)
+3. 选择 “加载已解压的扩展程序”
+![](pics/chrome_3.png)
+
+4. 找到 zip 解压的位置，打开文件夹，一片空白，但不要方，选择文件夹
+![](pics/chrome_4.png)
 
 OK，装载完毕
-![](Step_4.png)
+![](pics/chrome_5.png)
+
+## Firefox 安装
+由于还没有打包 launch，请选择 “clone or download”，“download as zip”，然后按照如下步骤操作：
+1. 打开 about:debugging
+![](pics/Step_1.png)
+
+2. 选择 “此 Firefox”
+![](pics/Step_2.png)
+
+3. 选择 “临时载入附加组件”，找到 zip 解压的位置，然后选中 manifest
+![](pics/Step_3.png)
+
+OK，装载完毕
+![](pics/Step_4.png)
 
 ## 使用
 1. 见到了不太对劲的文章，右键点选 Up 主头像，将此人 ban 掉
-![](Step_5.png)
+![](pics/Step_5.png)
 
 2. 刷新，或当你再次不小心点进这个人发表的文章后，会变成这个亚子。点下 Yes 后会显示出原本的内容，
-![](Step_6.png)
+![](pics/Step_6.png)
 
 3. 如果此人改邪归正了，可以按相反的方法把他放出来。
 
