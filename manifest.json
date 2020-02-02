@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "ACFun ban sb",
   "version": "0.1",
-  "homepage_url": "https://github.com/xuyangkang/acfun_ban_sb_ff",
+  "homepage_url": "https://github.com/xuyangkang/acfun_ban_sb",
   "content_scripts": [
     {
       "matches": [
