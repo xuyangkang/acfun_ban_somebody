@@ -1,3 +1,13 @@
+try {
+    let browserRef = browser;
+} catch (e) {
+    if (e instanceof ReferenceError) {
+        if (chrome) {
+            browser = chrome;
+        }
+    }
+}
+
 function onMenuItemCreated() {
     if (browser.runtime.lastError) {
         console.log(`Error: ${browser.runtime.lastError}`);

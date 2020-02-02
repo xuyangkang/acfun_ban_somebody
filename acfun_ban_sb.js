@@ -1,3 +1,13 @@
+try {
+    let browserRef = browser;
+} catch (e) {
+    if (e instanceof ReferenceError) {
+        if (chrome) {
+            browser = chrome;
+        }
+    }
+}
+
 function getUpId() {
     const maybeUpname = document.getElementsByClassName("upname");
     if (maybeUpname.length) {
