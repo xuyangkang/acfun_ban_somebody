@@ -12,4 +12,4 @@ AC在，爱一直在
 ## 安装
 由于还没有打包 launch，请选择 “clone or download”，“download as zip”，然后按照如下步骤操作：
 1. 打开 about:debugging
-![](Step 1.png)
+![](Step_1.png)
