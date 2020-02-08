@@ -1,5 +1,5 @@
 {
-  "description": "Bans ACFun posts from somebody that you don't like",
+  "description": "A firefox/chrome extension that implements missing banlist for ACfun",
   "manifest_version": 2,
   "name": "ACFun ban somebody",
   "version": "0.3",
@@ -21,7 +21,6 @@
 
   "permissions": [
     "storage",
-    "contextMenus",
-    "activeTab"
+    "contextMenus"
   ]
 }
