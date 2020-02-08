@@ -22,12 +22,10 @@ function getUpId() {
 }
 
 function coverPage() {
-    console.log('This page should be covered...');
-
     const style = document.createElement('style');
     style.type = 'text/css';
     style.innerHTML = `
-    .acfun-block-sb-cover-page {
+    .acfun-block-somebody-cover-page {
         background-color:#ccc;
         position:fixed;
         width:100%;
@@ -40,13 +38,13 @@ function coverPage() {
 
 
     const div = document.createElement('div');
-    div.id = 'acfun-block-sb';
-    div.className = 'acfun-block-sb-cover-page';
+    div.id = 'acfun-block-somebody';
+    div.className = 'acfun-block-somebody-cover-page';
     div.innerHTML = `
         <div style="font-size: 30px;">
-            This up was blocked, do you really want to watch the post?
+            This up was blocked, do you really want to read the post?
         </div>
-        <button onclick="document.getElementsByClassName('acfun-block-sb-cover-page')[0].style.display='none';">
+        <button onclick="document.getElementById('acfun-block-somebody').style.display='none';">
             Yes
         </button> 
     `
@@ -54,7 +52,7 @@ function coverPage() {
 }
 
 function main() {
-    console.log('ACFun ban sb activated');
+    console.log('ACFun ban somebody activated');
     const upId = getUpId();
     console.log(upId);
     if (!upId) {

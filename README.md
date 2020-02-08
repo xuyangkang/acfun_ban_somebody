@@ -1,13 +1,16 @@
-# ACFun ban sb
+# ACFun ban somebody
 
-A Firefox plugin that bans [ACFun](https://www.acfun.cn/) articles from somebody you don't like.
+A firefox/chrome extension that implements missing banlist for ACfun.
 
-I open sourced this extension to make it auditable. So that everyone can feel safe to use.
+ACFun is a Chinese website for anime, comic and games. Users can post videos or articles and view others' post. While the site is always filled with fun and love, in some cases we may no longer want to see somebody's post any more. But there's no such "block" or "banlist" functionality for now. This plugin implements a banlist. If user opens a post created by somebody on the banlist, the page will be covered by a dialog asking confirmation.
+
+I open sourced this extension to make everything auditable. So that everyone can feel safe to install and use.
 
 AC在，爱一直在
 
+实现了 ACFun 缺失的拉黑 up 主功能。如果手滑点进被拉黑过的人发布的文章，插件会遮盖文章，并要求确认是否访问。
 
-兄弟们，我相信许多老 ACer 现在唯一的快乐就是看文章区，但是最近恰烂钱的营销号以及睿智太多了，导致体验很差。猴山也毫无动静，只能亲自下场了。
+代码完全开源，请诸君放心使用。
 
 ## Chrome 安装
 由于还没有打包 launch，请选择 “clone or download”，“download as zip”，然后按照如下步骤操作：
